@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pablomolina/Developer/SPRING24/COP3502/lab2/lab2-1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _makeListCircular, symObjAddr: 0x0, symBinAddr: 0x100003B2C, symSize: 0x80 }
+  - { offsetInCU: 0x6E, offset: 0x6E, size: 0x8, addend: 0x0, symName: _makeListCircular, symObjAddr: 0x0, symBinAddr: 0x100003B2C, symSize: 0x80 }
+  - { offsetInCU: 0xA4, offset: 0xA4, size: 0x8, addend: 0x0, symName: _printCircularLinkedList, symObjAddr: 0x80, symBinAddr: 0x100003BAC, symSize: 0xDC }
+  - { offsetInCU: 0xF2, offset: 0xF2, size: 0x8, addend: 0x0, symName: _printLinkedList, symObjAddr: 0x15C, symBinAddr: 0x100003C88, symSize: 0x7C }
+  - { offsetInCU: 0x116, offset: 0x116, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1D8, symBinAddr: 0x100003D04, symSize: 0x21C }
+...
